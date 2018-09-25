@@ -1,0 +1,18 @@
+.list{
+    background-color: black;
+}
+.listname{
+    color:white;
+}
+/* .botonborrar{
+    background-image: url(../../assets/borrar.jpg);
+     background-repeat:no-repeat;
+      height:50px;
+      width:50px;
+      background-position:center;
+    } */
+.tasktitulo{
+        color: white;
+        text-align: center;
+    }
+    

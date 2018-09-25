@@ -1,0 +1,5 @@
+<div class="list">
+  <h1 class="listname">{{lista.name}}</h1><button (click)="eliminarlista(lista)">borrar</button>
+  <app-tareas  *ngFor="let tarea of lista.tareas"  [tarea]="tarea" [lista]="lista" class="tasktitulo" ></app-tareas>
+  <input [(ngModel)]="nuevaTarea" type="text" (keyup.enter)= "addtask(nuevaTarea)">
+</div>

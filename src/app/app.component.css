@@ -1,0 +1,21 @@
+.listheader{
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.addlist {
+    margin: 40px;
+    width: 200px;
+    height: 20px;
+}
+.listHeader {
+    background-color: transparent;
+}
+.listas{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
